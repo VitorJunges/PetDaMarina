@@ -1,0 +1,105 @@
+@font-face{
+    font-family: "Neucha";
+    src:url(../fontes/Lexend-Regular.ttf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Neucha", "cursive";
+    font-size: 20px;
+
+}
+.logo{
+    background-color: white;
+    display: inline-block;
+    padding-left:10px;
+    padding-right: 10px;
+    position: fixed;
+    max-height: 84px;
+
+}
+nav{
+    float: right;
+    background-color:rgb(245, 108,36);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    max-height: 84px;
+}
+img{
+    display: inline;
+    max-width: 100px;
+    max-height: 100%;
+}
+ul{
+    list-style-type:none;
+    float: right;
+}
+li{
+    float: left;
+    padding:30px;
+    padding-right: 40px;
+}
+.menu{
+    float: right;
+}
+main{
+    background-image: url(../images/front-view-of-beautiful-dog-with-copy-space.jpg);
+    padding: 100px;
+    background-size: cover;
+    overflow: hidden;
+}
+.description{
+    float: right;
+    margin: 25px;
+    max-width: 600px;
+}
+h1{
+    font-size: 34px;
+}
+p{
+    font-size:25px
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    background-size: cover;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+}
+#contato{
+    float:left;
+    padding: 30px;
+}
+#whats{
+    background-image: url(../images/1216841.png);
+    width: 50px;
+}
+#face{
+    background-image: url(../images/facebook.png);
+    width: 50px;
+}
+#insta{
+    background-image: url(../images/insta.png);
+    width: 50px;
+}
+#face , #insta, #whats{
+    list-style-position:inside;
+    float:left;
+    border:1px solid white;
+    border-radius: 1000px;
+    margin: 30px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    
+}
+#face:hover , #insta:hover, #whats:hover{
+    background-color: rgb(0, 60, 255);
+}
+a{
+    color:black;
+}
+a:hover{
+    color: white;
+}
